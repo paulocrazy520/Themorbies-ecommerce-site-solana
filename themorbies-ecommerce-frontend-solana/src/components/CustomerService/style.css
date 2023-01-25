@@ -1,0 +1,28 @@
+.customer-service-wrapper {
+    width: 100%;
+}
+
+.customer-service-wrapper h1 {
+    color: grey;
+}
+
+.customer-service-wrapper .MuiPaper-root {
+    width: 60%;
+    min-width: 360px;
+    margin: 15px 0;
+    color: grey;
+    background-color: #1b2528;
+
+}
+
+.customer-service-wrapper .MuiButtonBase-root {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.customer-service-wrapper svg {
+    color: grey;
+}

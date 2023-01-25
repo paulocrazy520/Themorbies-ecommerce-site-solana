@@ -1,0 +1,124 @@
+.flex-row-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.MuiContainer-root {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.order-container {
+    width: 100vw;
+    background-color: #121418;
+}
+
+.order-wrapper {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.order-container .banner-wrapper {
+    padding: 50px 15px 30px;
+}
+
+.order-container .banner-wrapper .product-image {
+    width: 30%;
+    margin: 0px 20px;
+    border-radius: 20px;
+    box-shadow: rgb(0 0 0 / 25%) 0px 4px 40px;
+}
+
+.middle-view {
+    padding: 50px 15px 50px;
+    border-top: 1px solid #202124;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.product-small-disp-wrapper::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+}
+
+.product-small-disp-wrapper::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 100px;
+}
+
+.product-small-disp-wrapper::-webkit-scrollbar-thumb {
+    background-color: rgba(200, 200, 200, 0.5);
+    border-radius: 100px;
+}
+
+.middle-view .product-small-disp-wrapper {
+    width: 60%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.middle-view .select-choice {
+    width: 40%;
+    padding: 10px 30px;
+    color: grey;
+}
+
+.middle-view .MuiAutocomplete-root {
+    width: 100%;
+}
+
+.middle-view .MuiOutlinedInput-root {
+    background-color: white;
+}
+
+.middle-view .MuiAutocomplete-popper {
+    background-color: white;
+    color: white;
+}
+
+.product-view {
+    padding: 20px 15px 40px;
+    border-top: 1px solid #202124;
+}
+
+.product-view .MuiGrid-item {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.product-view h1 {
+    color: grey;
+    margin: 20px 0 0;
+}
+
+.customer-service {
+    width: 100%;
+    padding: 20px 15px 20px;
+    border-top: 1px solid grey;
+}
+
+.flex-row-space {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-wrapper {
+    color: grey;
+}
+
+.MuiSvgIcon-root {
+    color: wheat;
+}

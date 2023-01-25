@@ -1,0 +1,100 @@
+.product-view-container {
+    width: 100vw;
+    background-color: #121418;
+}
+
+.product-view-wrapper {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.product-view-wrapper .product-view {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.css-84zodg {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.css-onkibi {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    line-height: 1em;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    /* flex-shrink: 0; */
+    color: grey;
+    vertical-align: middle;
+}
+
+.css-mdty5g {
+    cursor: pointer;
+    text-decoration: none;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    color: inherit;
+    transition: all 0.2s ease-in-out 0s;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.css-xl2g7y {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: grey;
+    text-decoration: underline;
+}
+
+.div-row {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.div-row>div:nth-child(2) {
+    margin-inline-start: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.field {
+    color: grey;
+    width: 100%;
+
+}
+
+.field input {
+    width: 100%;
+    height: 3.5rem;
+    border-radius: 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius:0.4rem;
+    border-image: initial;
+    border-color: inherit;
+}
+
+.field label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+    color: grey;
+}
+
+.css-wb57ya-MuiFormControl-root-MuiTextField-root {
+    background-color: #fff;
+}
+
+
+#country-select-demo{
+    height: 100%;
+}

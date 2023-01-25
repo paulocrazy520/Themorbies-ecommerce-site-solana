@@ -1,0 +1,77 @@
+.shopping-product-card-wrapper {
+    width: 100%;
+    height: 470px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 20px 0 20px 5%;
+    overflow: hidden;
+    position: relative;
+}
+
+.shopping-product-card-wrapper .product-image {
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.shopping-product-card-wrapper .product-info {
+    width: 50%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-info .product-price {
+    width: 100%;    
+    height: fit-content;
+    /* display: flex; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.product-price p {
+    margin: 0;
+    color: grey;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.product-price p:nth-child(1) {    
+    font-weight: 700;
+}
+
+.product-price p:nth-child(3) {    
+    margin: 0 10px;
+}
+
+.remove-btn {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    cursor: pointer
+}
+
+.remove-btn svg {
+    width: 20px;
+    color: grey;
+}
+
+.remove-btn p {
+    font-size: 14px;
+    margin: 0;
+    color: grey;
+    text-decoration: underline;    
+}

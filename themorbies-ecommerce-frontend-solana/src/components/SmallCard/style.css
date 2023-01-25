@@ -1,0 +1,27 @@
+.small-card-wrapper {
+    min-width: 120px;
+    width: 120px;
+    height: 164px;
+    border-radius: 6px;
+    border: 1px solid grey;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 10px;
+    overflow: hidden;
+}
+
+.small-card-wrapper img {
+    width: auto !important;
+    height: 70% !important;
+    margin-top: 0px !important;
+}
+
+.small-card-wrapper p {
+    bottom: 5px;
+    position: absolute;
+    margin: 0px;
+    color: grey;
+}

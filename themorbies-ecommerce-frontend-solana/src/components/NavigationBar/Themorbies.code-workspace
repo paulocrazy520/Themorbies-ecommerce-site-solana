@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		},
+		{
+			"path": "../../../../../../rs_demo_main_solana_nft_marketplace"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}

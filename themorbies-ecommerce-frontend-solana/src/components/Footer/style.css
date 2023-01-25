@@ -1,0 +1,22 @@
+.footer-wrapper {
+    background-color: #202124;
+    padding: 20px 0px;
+    border-top: 1px solid grey;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    text-transform: none !important;
+    font-weight: 700;
+    color: white;
+}
+
+.site-links {
+    color: white;
+}
