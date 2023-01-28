@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const SERVER_URL = "http://95.217.102.128/api";
+export const SERVER_URL = "http://95.217.98.125:80/api";
 
 export const ORDER_STATUS_CART = "cart"
 export const ORDER_STATUS_PROCEDDING = "shipping"
